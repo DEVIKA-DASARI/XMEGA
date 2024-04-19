@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-learning website</title>
+
+    <link rel="stylesheet" href="e-learning.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="e-learning.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><img src="dev.jpeg" alt="logo" height="30" width="150" style="display:flex"
+      /></a>
+      <ul class="navbar">
+        <li><a href="#home" class="navbar-item">Home</a></li>
+        <li><a href="#categories" class="navbar-item">Categories</a></li>
+        <li><a href="#business" class="navbar-item">Dev-learn Business</a></li>
+        <li><a href="#teach" class="navbar-item">Teach on Dev-learn</a></li>
+        <li><a href="#contactus" class="btn btn-primary">Contact Us</a></li>
+      </ul>
+      <div class="btn">
+        <button onclick="openLoginForm()">Log in</button>
+        <script>
+          function openLoginForm() {
+            window.location.href = "login.html";
+          }
+        </script>
+      </div>
+      <div class="btn">
+        <button onclick="openSignupForm()">Sign Up</button>
+        <script>
+          function openSignupForm() {
+            window.location.href = "login.html";
+          }
+        </script>
+      </div>
+    </header>
+    <section>
+      < class="cover_page">
+        <div class="slide">
+        <div class="cover">
+            <img src="https://cdn4.vectorstock.com/i/1000x1000/43/63/e-learning-banner-online-education-elearning-vector-17994363.jpg" alt="watch-1" >
+        </div>
+    </div>
+        <div class="cover">
+            <img src="https://static.toiimg.com/thumb/msid-94473435,width-1280,height-720,resizemode-4/94473435.jpg" alt="watch-6">
+        </div>
+        <!-- Add more cover slides -->
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+    </section>
+    <br />
+    <section>
+      <ul class="navbar">
+        <li><a href="#business" class="navbar-item">Business</a></li>
+        <li><a href="#design" class="navbar-item">Design</a></li>
+        <li><a href="#photography" class="navbar-item">Technology and Video</a></li>
+         <li><a href="#development" class="navbar-item">Development</a></li>
+        <li><a href="#marketing" class="navbar-item">Marketing</a></li>
+        <li><a href="#software" class="navbar-item">It & Software</a></li>
+        <li><a href="#pdevelopment" class="navbar-item">Personal Development</a></li>
+        <!-- Add more navbar items -->
+      </ul>
+    </section>
+    <br />
+    </section>
+    <section id="business" class="section">
+         <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('')">
+            <img src="https://th.bing.com/th/id/OIP.NUlwNjPkWPWiDx6B-3ZjyQHaEu?w=265&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.GrBaVahxOxwFaM3m7k2RDgHaE8?w=253&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.Wr1eKs2VHyEN_R7FtGI_eAHaE8?w=253&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6dd1iNocTweIfO1OMPe0IJquGB_jz8dKUf_zuRKk1domk3LByEiyPk2rEz4ZWKsAEC7o&usqp=CAU">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://cloudinary.hbs.edu/hbsit/image/upload/s--Fm3oHP0m--/f_auto,c_fill,h_375,w_750,/v20200101/79015AB87FD6D3284472876E1ACC3428.jpg"alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.OlPc25VEss6TuCt0D7aXcgHaGb?w=218&h=189&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBbZKM30t0ZGxlXMWDdlXpFzm3DPzIQZSlEEGLwxv0EOoHATqnSAPc8I1_dNlUU4TxWY&usqp=CAU" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXYCkk1TJHzvIm3_Yf3F9QBGdhbtwpn14gVg&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6dd1iNocTweIfO1OMPe0IJquGB_jz8dKUf_zuRKk1domk3LByEiyPk2rEz4ZWKsAEC7o&usqp=CAU" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://cloudinary.hbs.edu/hbsit/image/upload/s--Fm3oHP0m--/f_auto,c_fill,h_375,w_750,/v20200101/79015AB87FD6D3284472876E1ACC3428.jpg" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.Qb1s-VzlgMTsCR0NeCywhwHaE7?w=284&h=189&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.lDlGFX-2mRfBe-Ucwr2UcQHaFN?w=227&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.tdwYey0rWHMdWbk5gh13swHaE8?w=285&h=189&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.Z16jFP8tI1oVTVdLnv0vXQHaEK?w=273&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.Q8Z9g3IBNKEg_k4eV99qzQHaEq?w=214&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.tCpThTzf5SJhQ1gyytDjXQHaEK?w=283&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+ <!-- Add more video cards as needed --><!-- Content for Business section -->
+    </section>
+     <section id="design" class="section">
+
+     <div class="videocardscontainer">
+        <div class="videocard" onclick="openVideo('e-commerce.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.415B5K8-1wVXE4jVjRqPOwHaHa?w=192&h=191&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 1 Thumbnail">
+            <h3>Video Title 1</h3>
+        </div>
+        <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.reWGnVQfEOHuGYAn6GJ5OQHaE8?w=287&h=191&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+        <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRNDI965qIwKZU8asFrBIG6bzuxyniWcSZbg&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+        <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.ptE_VhgDKJ-vD_KUzKu-swHaE8?w=276&h=184&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+        <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.QlcUoH5_BKR0HXfEOjtZNQHaEf?w=304&h=184&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+        <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRNDI965qIwKZU8asFrBIG6bzuxyniWcSZbg&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+        <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.jIbxoH8vZFijmPMpmhePqQHaCm?w=296&h=123&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+        <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th?q=Art+Science+Engineering+Design&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.2&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+    <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRNDI965qIwKZU8asFrBIG6bzuxyniWcSZbg&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.E2c_vZuUUcC7pL8CZz6U-QEsDI?w=268&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.itVhu3SmRtNUmZk-X-p7lAHaE8?w=225&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQDknew-vwn8G5Osm1l4E4gX8ivEjyA43GA&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+</section>
+<section id="photography" class="section">
+         <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd7vKlWtdVlpDAn4alJCHRiU3hs-yCoX-kaQ&s">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtIJuko_WDfD5mwyqZI_P0YMTWoEQJUpwZtw&s">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.E2c_vZuUUcC7pL8CZz6U-QEsDI?w=268&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBI4wMNSDmrbzGDNGEQGhWNfXSs1H4i8Xnpg&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.qxgGvsXMaoJARfiEnZB9uAHaFj?w=259&h=187&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.E2c_vZuUUcC7pL8CZz6U-QEsDI?w=268&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWJv348Bth-0_BNj8UsYPmNxUMVt5Bx6_tg&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.MRWRf0iaNC_7gTlmMS9YFwHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.WEPa4uJ_GeZbeeRP1ur9OgHaEI?w=319&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.YXwRnP7uW1k6fxhK38siKQHaE8?w=303&h=202&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.QE16cdz4wTUZakay5nBPzAHaFj?w=169&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://rapitypes.com/wp-content/uploads/2016/03/design-engineering-e1458032436948.jpg" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.VYEPUfJ-PJxFfNQ3v4ZLsAHaEI?w=332&h=185&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.n2P72PkJpiomjOagPzk6swAAAA?w=194&h=185&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.Gdwp_v31U-VOFrHG0xfeWwHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.bwSF8Nrjh_MDTw4Zv7464gHaEo?w=197&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+ <!-- Add more video cards as needed --><!-- Content for Business section -->
+    </section>
+    <section id="development" class="section">
+         <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ3Q6J3FVqvLajhS378hfC1s5JgdBLcgaLmA&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbPTcL9NBGy97UdXcEWOb6rjZe-S0EEPZvvg&s">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.A5UB6nEtypdlzNceHmQc6QHaE7?w=251&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.AqBLhkOVOt6g-Ek337zOXgHaEc?w=278&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.Rw6lc6FmTZDvhEeL5n6beAHaD4?w=320&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.uNOrx86uN7xEYGT5nAyauwHaE8?w=263&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiTFBVt9eWOnWE5IaRVeJoxkwxfWTaZbBBeA&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzOWgu2V3wsRZ2KXFnTAg7vvWWLIPFSCu4sg&s" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.wYwPBEka6z7Nj-DvCr7sUwHaD8?w=342&h=182&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.9lvgoZBGOUo4aRM2FykTfAHaEK?w=313&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.TfYsDOKgTIWFxpMEt1zkiAHaEK?w=270&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.uXI7gD30bvDeVTRD8vkrVgHaFj?w=190&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.LiSJV47Tbir_oIeGG0OTugHaEK?w=299&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.mYTvayvixTvmwVFhn_DGGwHaEo?w=253&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.aDKOX4yHaWbV8Ckic_phEQAAAA?w=324&h=182&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://stintlieftechnologies.com/asset/images/custom-software-development.png" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+ <!-- Add more video cards as needed --><!-- Content for Business section -->
+    </section><section id="marketing" class="section">
+         <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.OIWCQmgdXwcLrYScyPK2oAHaE8?w=245&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.Lx6KZUsW-7gFZIs5dqFI5QHaHa?w=163&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.k-A_9MFe02y-WMTlOwlI_gHaE8?w=287&h=191&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.i31TmwzCPM3iuYK1b6YQwAHaEo?w=305&h=191&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.GjISuqfeUhGKjsbO3naVggHaFS?w=244&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.x44YNQax268Kb0OZJJpK0wHaE8?w=207&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.sIc8OBghGomtxx_EmZhK2AHaFP?w=247&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.fNNdwru5sY0TJ22ErxVy7gHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.G9k8AMmRUyoAInexcfW7MwHaFL?w=237&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.I3BA992Jk79BwIeqfU4dTQHaFS?w=186&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.0FLa0qp0tqEGElAdZFqNqgHaE8?w=252&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.iKn2F1E3C6GrAW7tlfB9DQHaFM?w=1500&h=1051&rs=1&pid=ImgDetMain" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.EwQonl6YNBYqpx-qjwL91QHaHa?rs=1&pid=ImgDetMain" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.z8TcJmIgCOjVLFUgt1TOTwHaFr?w=209&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.UcNvm7Rb9vCYapmi0XFTzwHaHd?w=182&h=183&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.UnYL7LB7YSFOnn6wA2pJfwHaFj?w=233&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+ <!-- Add more video cards as needed --><!-- Content for Business section -->
+    </section><section id="software" class="section">
+         <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.oKyFI0FlAhKQ9NSWYiQVtAHaE8?w=262&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.37UfZNdRRAAY6mR2xSptaQHaD2?w=343&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.-mjS8kUHw_O9a1OlPGLeOAHaE8?w=262&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.OCNeCwaseXF3S_ByyLl5uwHaE8?w=270&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.6aRelVEXHlLUV8d82nWy-AHaD4?w=314&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.iV2OkS1ykLDI9jI3d_4sFwHaEc?w=274&h=175&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.h0P-7N9-oZ1qMKnUfsUU3AHaEJ?w=264&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.5pkw9tgBrjmyBgy05pkUswHaFj?w=176&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.oY7i55VWS5cxD2Rk6k1bfAHaE8?w=246&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.9n-I3J3PL5FgHmcTtWupygHaEK?w=288&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.SsxIQ5i5b9USgZKKmiSYeQHaCh?w=273&h=119&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.sza1HQsJ8ozS62hbNb0z2QHaE8?w=248&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.6fD5obtEeh-MD4LMNiHGOgHaEK?w=275&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP._uAPa2PPLtfjKX6rsgNrsAHaFj?w=330&h=198&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.-6UwYXT8x5NltNEpFnnS3QHaLG?w=115&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.NuRNY0yLkJO87wnBU82pkwHaE8?w=297&h=198&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+ <!-- Add more video cards as needed --><!-- Content for Business section -->
+    </section><section id="pdevelopment" class="section">
+         <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.hAYHjdx4n71CLe9V1F4mIgHaEK?w=290&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.Lr-77y_GqVjNRCia1wyK1QHaEK?w=288&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhXBl8ZPsXmKdfoLSikLOxG4EFcpFl43l3VQ&s">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.6As1SqGe5u2KDlfZam7BfgHaDn?w=289&h=170&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtx1kwyfmn62841r1dZHNi10vnDv_N6z2xeQ&s">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.Djje2UTy8KWFXxemfH7DkgHaFj?w=198&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.W0PK0HPByiyZyemWKH9WdQHaD9?w=336&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.E07LY-RKldp5M5PenvbKXwHaFj?w=243&h=182&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th?q=Personality+Development+Images+HD&dc=2&w=100&h=100&c=1&rs=1&qlt=90&cb=1&dpr=1.2&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.9WBC_uPQhFN0pyS7vy3kCQHaLS?w=119&h=181&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.0_kEvj3uXbrR3VgfikxrEgHaEK?w=289&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.xOyLMrOX1T5CHccdkrkWbAHaEK?w=322&h=181&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+     <div class="videocardscontainer">
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th?q=Personal+Development&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.2&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.GHqXvNxxAiXI82cK3O3rhQHaIq?w=148&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.fSSPCxS8PjL7SsN7-0NZ6wHaHa?w=204&h=187&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+         <div class="videocard" onclick="openVideo('f_gen.mp4')">
+            <img src="https://th.bing.com/th/id/OIP.seNw4GZYmGyw62d-Ant5JgHaHO?w=183&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="Video 2 Thumbnail">
+            <h3>Video Title 2</h3>
+        </div>
+    </div>
+ <!-- Add more video cards as needed --><!-- Content for Business section -->
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+      <span class="close" onclick="closeVideoModal()">&times;</span>
+      <video controls id="modalVideo">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <footer>
+      <h3>Copyright Dev-Learn Business © 2024 All Rights Reserved |</h3>
+    </footer>
+
+    <script src="e-learning.js"></script>
+    <script>
+      // Get all navbar items
+      const navbarItems = document.querySelectorAll(".navbar-item");
+
+      // Add click event listener to each navbar item
+      navbarItems.forEach((navbarItem) => {
+        navbarItem.addEventListener("click", () => {
+          // Get the section ID from the href attribute
+          const sectionId = navbarItem.getAttribute("href").slice(1); // Remove the '#' character
+
+          // Hide all sections
+          document.querySelectorAll(".section").forEach((section) => {
+            section.style.display = "none";
+          });
+
+          // Display the clicked section
+          document.getElementById(sectionId).style.display = "block";
+        });
+      });
+
+      // Your other JavaScript code here...
+    </script>
+    </section>
+    <style>
+    .videocardscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.videocard {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color:black;
+}
+
+.videocard:hover {
+    transform: translateY(-5px);
+}
+
+.videocard img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.videocard h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color:black;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+<script>
+// Function to open video modal with specified video source
+function openVideo(videoSource) {
+    const modal = document.getElementById('videoModal');
+    const video = document.getElementById('modalVideo');
+    
+    video.src = videoSource;
+    modal.style.display = 'block';
+}
+
+// Function to close the video modal
+function closeVideoModal() {
+    const modal = document.getElementById('videoModal');
+    const video = document.getElementById('modalVideo');
+    
+    video.pause();
+    video.currentTime = 0;
+    modal.style.display = 'none';
+}
+
+// Close modal if user clicks outside of the modal content
+window.onclick = function(event) {
+    const modal = document.getElementById('videoModal');
+    if (event.target == modal) {
+        closeVideoModal();
+    }
+}
+
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <span class="close" onclick="closeVideoModal()">&times;</span>
+        <video controls id="modalVideo">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</script>
+<footer>
+    devika-dasari@Imaginary-world
+</footer>
+</body>
+</html>

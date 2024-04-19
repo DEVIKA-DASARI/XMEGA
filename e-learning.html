@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-learning website</title>
+
+    <link rel="stylesheet" href="e-learn.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="e-learn.js"></script>
+  </head>
+  <body>
+    <section>
+    <!-- header section -->
+    <header>
+      <!-- <a href="#" class="logo">Food<span>Fun</span></a> -->
+      <a href="#" class="logo"
+        ><img src="dev.jpg" alt="logo" height="30" width="150"
+      /></a>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#teachers">Teachers</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="btn">
+       <button onclick="openSignupForm()">Sign Up</button>
+        <script>
+        function openSignupForm() {
+            window.location.href = "login.html";
+        }
+    </script>
+</div>
+    </header>
+        <section class="home" id="home">
+      <div class="home-text">
+        <h1>“Unlock Knowledge. Unleash Potential.”<br></h1><p>Feel free to use it to inspire learners to embark on their educational journey with our platform!</p>
+        <br>
+        <br>
+        <button onclick="openExploreForm()">Explore Now</button>
+        <script>
+        function openExploreForm() {
+            window.location.href = "eLearning.html";
+        }
+    </script>
+        
+      </div>
+
+      <div class="home-img">
+        <img
+          src="https://cdn4.vectorstock.com/i/1000x1000/43/63/e-learning-banner-online-education-elearning-vector-17994363.jpg"
+          alt="home"
+        />
+      </div>
+
+    </section>
+
